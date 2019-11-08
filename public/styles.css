@@ -1,0 +1,122 @@
+.addmargin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.centeralign {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.individualTask {
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.individualTask:hover {
+  background-color: #F3EFFE;
+}
+
+.individualTaskCheckBox {
+  float: left;
+  margin: 0px !important;
+}
+
+.taskName {
+  font-size: 20px;
+}
+
+.deleteIcon {
+  display: none;
+}
+
+input[type=checkbox] {
+  width: 30px;
+  height: 26px;
+}
+
+input[type=checkbox]:checked+span.taskName {
+  text-decoration: line-through;
+}
+
+input[type=checkbox]:checked {
+  /* Double-sized Checkboxes */
+  color: green;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext {
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+
+.individualTask:hover .deleteIcon {
+  display: block;
+  float: right;
+  display: 'inline-block';
+  fill: #581FE8;
+  height: 24px;
+}
+
+.addTask {
+  margin-top: 10px;
+}
+
+.panel-title {
+  margin-top: 10px !important;
+  margin-bottom: 0;
+  font-size: 24px !important;
+  color: inherit;
+  padding: 2px;
+}
+
+.avtarPanel {
+  display: inline-flex;
+  padding: 10px !important;
+}
+
+.panel-heading {
+  color:white !important;
+  background-color: #581FE8 !important;
+}
+
+.btn-info{
+  font-size: 1em;
+  text-align: left !important;
+  width:100%;
+  color: black !important;
+  background-color:white !important;
+  border-color: white !important;
+}
+
+.todobutton:hover{
+  background-color: #F3EFFE !important;
+}
+
+.addTaskInput{
+  border:none;
+  width: 300px;
+  line-height: 28px;
+  margin-left:5px;
+  font-size:20px;
+}
+
+.addTaskInput::placeholder{
+  color:#581FE8;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.plusIcon{
+  width:1.5em;
+  height: 1.5em;
+  top: 15px;
+  fill: #581FE8;
+}
+
+.subtitle{
+  margin-left:7px
+}
